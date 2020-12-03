@@ -1,6 +1,6 @@
 # MyPortfolio
 
-This is the documented steps of creating my portfolio
+This is the documented steps that I took for creating my portfolio
 
 <hr>
 
