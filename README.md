@@ -6,6 +6,6 @@ This is the documented steps of creating my portfolio
 
 <ol>
   <li>Create de design using some UI design software. In this case I used InVision Studio for a rapid prototype
-    <div><a href="https://junnaruse.invisionapp.com/prototype/cki8c5fou005qa401xotf2mzp/play">Play my prototype</a></div>
+    <div><a href="https://junnaruse.invisionapp.com/prototype/cki8c5fou005qa401xotf2mzp/play" target="_blank">Play my prototype</a></div>
   </li>
 </ol>
