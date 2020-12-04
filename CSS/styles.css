@@ -1,0 +1,76 @@
+/** HEADER **/
+#header-nav {
+    margin-bottom: 15px;
+    padding: 25px;
+}
+.navbar-header {
+    font-size: 6vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+#collapsable-nav a {
+    text-align: center;
+}
+
+/** END HEADER **/
+
+
+/** FOOTER **/
+
+/** FOOTER **/
+
+
+/** HOME **/
+
+#main-content {
+    margin-top: 30px;
+}
+
+#main-content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#main-content > p{
+    margin: 0 auto;
+    text-align: center;
+    width: 42vw;
+    margin-top: 15px;
+    font-size: 5vw;
+}
+
+/** END HOME **/
+
+
+/** LARGE DEVICES **/
+@media (min-width: 1200px) {
+    #main-content h1 {
+        font-size: 2vw;
+    }
+}
+
+/** MEDIUM DEVICES **/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #main-content h1 {
+        font-size: 2vw;
+    }
+}
+
+/** SMALL DEVICES **/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #main-content h1 {
+        font-size: 2vw;
+    }
+}
+
+/** EXTRA SMALL DEVICES **/
+@media (min-width:445.98) and (max-width: 767.98px) {
+    #main-content h1 {
+        font-size: 2vw;
+    }
+}
