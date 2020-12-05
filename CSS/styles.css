@@ -1,17 +1,22 @@
 /** HEADER **/
 #header-nav {
     margin-bottom: 15px;
-    padding: 25px;
+    padding: 20px 0;
 }
 .navbar-header {
-    font-size: 6vw;
+    font-size: 3.5vw;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
 }
 
+#collapsable-nav li {
+    margin-left: 15px;
+}
+
 #collapsable-nav a {
     text-align: center;
+    font-size: 2.5vw;
 }
 
 /** END HEADER **/
@@ -31,17 +36,17 @@
 #main-content h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 8vw;
+    font-size: 5vw;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 #main-content > p{
     margin: 0 auto;
     text-align: center;
-    width: 42vw;
-    margin-top: 15px;
-    font-size: 5vw;
+    width: 35vw;
+    margin-top: 30px;
+    font-size: 3vw;
 }
 
 /** END HOME **/
@@ -49,28 +54,83 @@
 
 /** LARGE DEVICES **/
 @media (min-width: 1200px) {
-    #main-content h1 {
-        font-size: 2vw;
+    /* Header */
+    #header-nav {
+        margin-bottom: 50px;
+        padding: 20px 0;
     }
+    .navbar-header {
+        font-size: 2.5vw;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.25vw;
+    }
+    /* End Header */
+    
+    /* Home */
+    #main-content h1 {
+        font-size: 4.5vw;
+    }
+    #main-content > p {
+        font-size: 1.5vw;
+        width: 20vw;
+    }
+    /* End Home */
 }
 
 /** MEDIUM DEVICES **/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    #main-content h1 {
-        font-size: 2vw;
-    }
+        /* Header */
+        #header-nav {
+            margin-bottom: 50px;
+            padding: 20px 0;
+        }
+        .navbar-header {
+            font-size: 2.5vw;
+        }
+    
+        #collapsable-nav a {
+            font-size: 1.5vw;
+        }
+        /* End Header */
+        
+        /* Home */
+        #main-content  h1 {
+            font-size: 4.5vw;
+            margin-bottom: 0;
+        }
+        #main-content > p {
+            font-size: 2vw;
+            width: 20vw;
+        }
+        /* End Home */
 }
 
 /** SMALL DEVICES **/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    #main-content h1 {
-        font-size: 2vw;
-    }
-}
-
-/** EXTRA SMALL DEVICES **/
-@media (min-width:445.98) and (max-width: 767.98px) {
-    #main-content h1 {
-        font-size: 2vw;
-    }
+        /* Header */
+        #header-nav {
+            margin-bottom: 50px;
+            padding: 10px 0;
+        }
+        .navbar-header {
+            font-size: 3.5vw;
+        }
+    
+        #collapsable-nav a {
+            font-size: 2vw;
+        }
+        /* End Header */
+        
+        /* Home */
+        #main-content  h1 {
+            font-size: 5vw;
+            margin-bottom: 0;
+        }
+        #main-content > p {
+            font-size: 2.5vw;
+            width: 20vw;
+        }
+        /* End Home */
 }
