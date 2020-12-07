@@ -1,8 +1,13 @@
 /** HEADER **/
 #header-nav {
-    margin-bottom: 15px;
     padding: 20px 0;
 }
+
+#header-nav > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar-header {
     font-size: 3.5vw;
     font-weight: bold;
@@ -12,11 +17,16 @@
 
 #collapsable-nav li {
     margin-left: 15px;
+    width: 12vw;
 }
 
 #collapsable-nav a {
     text-align: center;
     font-size: 2.5vw;
+}
+
+.nav-link:hover {
+    background-color: gray;
 }
 
 /** END HEADER **/
@@ -28,6 +38,18 @@
 
 
 /** HOME **/
+
+.jumbotron {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jumbotron > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 #main-content {
     margin-top: 30px;
@@ -56,7 +78,6 @@
 @media (min-width: 1200px) {
     /* Header */
     #header-nav {
-        margin-bottom: 50px;
         padding: 20px 0;
     }
     .navbar-header {
